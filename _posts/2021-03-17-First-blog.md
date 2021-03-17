@@ -8,7 +8,7 @@ date: 2021-03-17
 > ```
 > $ nvidia-smi
 > ```
-> ![nvida driver version](/_img/1.png)
+> ![](/_img/1.png)
 >   
 > ## 2. Install CUDA 
 > Get the installation command from CUDA official site 
@@ -18,9 +18,9 @@ date: 2021-03-17
 > $ sudo sh cuda_11.2.2_460.32.03_linux.run
 > ```
 > Then there will be warning message from Nvidia. Just ignore it and choose continue
-> ![nvida driver version](/_img/2.png)   
+> ![](/_img/2.png)   
 > And type "accepted"
-> ![nvida driver version](/_img/3.png)   
+> ![](/_img/3.png)   
 > Unchoose the driver option and choose install
-> ![nvida driver version](/_img/4.png)   
+> ![](/_img/4.png)   
 > ## 3. 
