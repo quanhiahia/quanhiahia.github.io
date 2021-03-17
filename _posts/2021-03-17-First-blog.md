@@ -9,6 +9,7 @@ date: 2021-03-17
 > $ nvidia-smi
 > ```
 > ![](/_img/1.png) <br />
+> 
 > Before all, install GCC 
 > ```   
 > $ sudo apt update
@@ -31,7 +32,7 @@ date: 2021-03-17
 > ![](/_img/3.png)   
 > Unchoose the driver option and choose install <br />
 > ![](/_img/4.png)   
-> Add the path in the end of the bashrc file
+> Add the path in the end of the bashrc file (https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#post-installation-actions)
 > ```
 > $ export PATH=/usr/local/cuda-11.2/bin${PATH:+:${PATH}}
 > $ export LD_LIBRARY_PATH=/usr/local/cuda-11.2/lib64\${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
