@@ -9,7 +9,15 @@ date: 2021-03-17
 > $ nvidia-smi
 > ```
 > ![](/_img/1.png)
->   
+> Before all, install GCC 
+> ```   
+> $ sudo apt update
+> $ sudo apt install build-essential
+> ```
+> Check if GCC is installed
+> ```
+> $ gcc --version
+> ```
 > ## 2. Install CUDA 
 > Get the installation command from CUDA official site 
 > Choose Linux--x86_64--Ubuntu--20.04--runfile(local) 
