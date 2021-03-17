@@ -21,6 +21,6 @@ date: 2021-03-17
 > ![](/_img/2.png)   
 > And type "accepted"
 > ![](/_img/3.png)   
-> Unchoose the driver option and choose install
+> Unchoose the driver option and choose install <br />
 > ![](/_img/4.png)   
 > ## 3. 
