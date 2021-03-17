@@ -18,5 +18,5 @@ date: 2021-03-17
 > $ sudo sh cuda_11.2.2_460.32.03_linux.run
 > ```
 > Then there will be warning message from Nvidia. Just ignore it and choose continue
-> ![nvida driver version](/_img/1.png)   
+> ![nvida driver version](/_img/2.png)   
 > ## 3. 
