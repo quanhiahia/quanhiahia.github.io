@@ -13,7 +13,7 @@ Nvidia RTX2080, Ubuntu20.04, CUDA11.2, Pytorch1.8.0
 > $ nvidia-smi
 > ```
 > 
-> <img src="{{site.url}}/_img/1.png" style="display: block; margin: auto;" />
+> <img src="{{site.url}}/_img/1.png"/>
 > 
 > Before all, install GCC 
 > ```   
