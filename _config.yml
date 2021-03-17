@@ -4,3 +4,86 @@ permalink: /blog/:year/:month/:day/:title
 baseurl: "quanhiahia.github.io"
 url: "https://quanhiahia.github.io"
 theme: minima
+
+
+title: ......!
+email: yeongsu.quan@gmail.com
+description: "derp derp derp"
+github_username: Yeongsu
+minimal_mistakes_skin: default
+search: true
+github: [metadata]
+
+# Build settings
+markdown: kramdown
+remote_theme: "mmistakes/minimal-mistakes@4.17.2"
+minimal_mistakes_skin: "aqua"
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: Asia/Seoul
+locale: "ko-KR"
+
+include:
+  - _pages
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+  - jekyll-seo-tag
+
+author:
+  name          : "Yeongsu Quan"
+#  avatar        : "/assets/images/cheer_potato.png"
+#  bio           : "여기에 무얼 적으면 좋을까요?"
+  location      : "Seoul, Korea"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: mailto:yeongsu.quan@gmail.com
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: false
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+encoding: "utf-8"
