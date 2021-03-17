@@ -96,10 +96,9 @@ Nvidia RTX2080, Ubuntu20.04, CUDA11.2, Pytorch1.8.0
 > > ``` 
 > > $ ./mnistCUDNN
 > > ``` 
-> > >if the cuDNN is properly installed, we will see 
-> > >``` 
-> > >Test Passed!
-> > >``` 
+> > ``` 
+> > Test Passed!
+> > ``` 
 > 
 > 
 > ## 4. Install Pytorch
