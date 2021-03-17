@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Yeongsu, Horrible Cop, Launches Site"
+title: "Ubuntu 20.04에 CUDA cuDNN Pytorch"
 date: 2021-03-17
 ---
 
