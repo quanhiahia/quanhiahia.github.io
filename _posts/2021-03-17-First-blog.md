@@ -4,7 +4,7 @@ title: "Ubuntu 20.04에 CUDA cuDNN Pytorch"
 date: 2021-03-17
 ---
 
->1. Verify the NVIDIA driver version 
+> ## 1. Verify the NVIDIA driver version 
 >   $ nvidia-smi 
 >   ![image info](./pictures/gitblog/Screenshot from 2021-03-17 06-35-42.png)
 >2. Install CUDA 
