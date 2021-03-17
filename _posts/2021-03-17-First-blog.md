@@ -74,7 +74,8 @@ date: 2021-03-17
 > sudo dpkg -i libcudnn8-samples_8.x.x.x-1+cudax.x_amd64.deb
 > ``` 
 > 
-> Verify the installation
+> Verify the installation. (https://docs.nvidia.com/deeplearning/cudnn/install-guide/#installlinux-deb)
+> 
 > > 1. copy the cuDNN samples to a writable path
 > > ``` 
 > > $cp -r /usr/src/cudnn_samples_v8/ $HOME
@@ -91,7 +92,7 @@ date: 2021-03-17
 > > ``` 
 > > $ ./mnistCUDNN
 > > ``` 
-> > if the cuDNN is properly installed, we will see 
-> > ``` 
-> > Test Passed!
-> > ``` 
+> > >if the cuDNN is properly installed, we will see 
+> > >``` 
+> > >Test Passed!
+> > >``` 
