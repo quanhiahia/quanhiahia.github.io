@@ -5,7 +5,7 @@ date: 2021-03-17
 ---
 
 > ## 1. Verify the NVIDIA driver version 
-> <p>Here is an example of AppleScript:</p>
+> <p>Type the command in terminal:</p>
 > <pre><code>$ nvidia-smi
 > </code></pre>
  
