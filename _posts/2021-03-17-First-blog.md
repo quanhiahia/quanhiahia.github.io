@@ -81,25 +81,25 @@ Nvidia RTX2080, Ubuntu20.04, CUDA11.2, Pytorch1.8.0
 > 
 > Verify the installation. (https://docs.nvidia.com/deeplearning/cudnn/install-guide/#installlinux-deb)
 > 
-> > + copy the cuDNN samples to a writable path
-> > ``` 
-> > $cp -r /usr/src/cudnn_samples_v8/ $HOME
-> > ``` 
-> > + Go to the writable path
-> > ``` 
-> > $ cd  $HOME/cudnn_samples_v8/mnistCUDNN
-> > ``` 
-> > + Compile the sample
-> > ``` 
-> > $ sudo make clean && make
-> > ``` 
-> > + Run the sample
-> > ``` 
-> > $ ./mnistCUDNN
-> > ``` 
-> > ``` 
-> > Test Passed!
-> > ``` 
+> + copy the cuDNN samples to a writable path
+> ``` 
+> $cp -r /usr/src/cudnn_samples_v8/ $HOME
+> ``` 
+> + Go to the writable path
+> ``` 
+> $ cd  $HOME/cudnn_samples_v8/mnistCUDNN
+> ``` 
+> + Compile the sample
+> ``` 
+> $ sudo make clean && make
+> ``` 
+> + Run the sample
+> ``` 
+> $ ./mnistCUDNN
+> ``` 
+> ``` 
+> Test Passed!
+> ``` 
 > 
 > 
 > ## 4. Install Pytorch
