@@ -5,9 +5,9 @@ date: 2021-03-17
 ---
 
 > ## 1. Verify the NVIDIA driver version 
-> '''
+> ```
 > $ nvidia-smi
-> '''
+> ```
  
 >   ![image info](./Pictures/gitblog/1.png)
 >   
