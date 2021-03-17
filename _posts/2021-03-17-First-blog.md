@@ -41,4 +41,14 @@ date: 2021-03-17
 > ```
 > source ~/.bashrc
 > ```
+> Check if the CUDA is sucessfully installed
+> ```
+> nvcc --version
+> ```
+> 
+> ![](/_img/5.png) <br />
+> 
+> Try the sample code in CUDA (https://docs.nvidia.com/cuda/cuda-samples/index.html#asyncapi)
+> Compile
+> 
 > ## 3. 
