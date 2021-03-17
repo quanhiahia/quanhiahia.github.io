@@ -8,7 +8,7 @@ date: 2021-03-17
 > ```
 > $ nvidia-smi
 > ```
-> ![](/_img/1.png)
+> ![](/_img/1.png) <br />
 > Before all, install GCC 
 > ```   
 > $ sudo apt update
