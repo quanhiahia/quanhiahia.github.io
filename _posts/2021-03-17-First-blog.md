@@ -5,7 +5,12 @@ date: 2021-03-17
 ---
 
 > ## 1. Verify the NVIDIA driver version 
->   $ nvidia-smi 
+<p>Here is an example of AppleScript:</p>
+
+<pre><code>
+$ nvidia-smi
+</code></pre>
+ 
 >   ![image info](./pictures/gitblog/Screenshot from 2021-03-17 06-35-42.png)
 >2. Install CUDA 
 >   Get the installation command from CUDA official site 
