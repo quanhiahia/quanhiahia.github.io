@@ -8,8 +8,7 @@ date: 2021-03-17
 > ```
 > $ nvidia-smi
 > ```
-> <img src="images/you-picture.png" width="100">
->   ![image info](./Pictures/gitblog/1.png)
+> ![image info](./_img/1.png)
 >   
 > ## 2. Install CUDA 
 > Get the installation command from CUDA official site 
