@@ -48,7 +48,17 @@ date: 2021-03-17
 > 
 > ![](/_img/5.png) <br />
 > 
-> Try the sample code in CUDA (https://docs.nvidia.com/cuda/cuda-samples/index.html#asyncapi)
+> Try the sample code in CUDA (https://docs.nvidia.com/cuda/cuda-samples/index.html#asyncapi)<br />
 > Compile
+> ```
+> $ cd /usr/local/cuda-11.2/samples/0_Simple/matrixMul
+> $ make
+> ```
+> 
+> Run 
+> ```
+> $ ./matrixMul
+> ``` <br />
+> ![](/_img/6.png) 
 > 
 > ## 3. 
