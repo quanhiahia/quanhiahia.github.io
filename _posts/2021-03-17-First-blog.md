@@ -4,6 +4,8 @@ title: "Ubuntu 20.04에 CUDA cuDNN Pytorch"
 date: 2021-03-17
 ---
 
+Nvidia RTX2080, Ubuntu20.04, CUDA11.2, Pytorch1.8.0
+
 > ## 1. Verify the NVIDIA driver version 
 > ```
 > $ nvidia-smi
