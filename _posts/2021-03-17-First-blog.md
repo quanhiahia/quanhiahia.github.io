@@ -23,4 +23,10 @@ date: 2021-03-17
 > ![](/_img/3.png)   
 > Unchoose the driver option and choose install <br />
 > ![](/_img/4.png)   
+> Add the path in the end of the bashrc file
+> ```
+> $ export PATH=/usr/local/cuda-11.2/bin${PATH:+:${PATH}}
+> $ export LD_LIBRARY_PATH=/usr/local/cuda-11.2/lib64\
+                         ${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+> ```
 > ## 3. 
