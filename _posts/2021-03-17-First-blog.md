@@ -12,7 +12,7 @@ Nvidia RTX2080, Ubuntu20.04, CUDA11.2, Pytorch1.8.0
 > ```
 > $ nvidia-smi
 > ```
-> ![](https://github.com/quanhiahia/quanhiahia.github.io/blob/main/_img/1.png)
+> ![](/_img/1.png)
 > 
 > 
 > Before all, install GCC 
