@@ -1,6 +1,6 @@
 name: Yeongsu
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
-baseurl: /blog/
+baseurl: "quanhiahia.github.io"
 url: "https://quanhiahia.github.io"
 theme: minima
