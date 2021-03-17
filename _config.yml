@@ -1,4 +1,4 @@
 name: Yeongsu
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
-url: "./_img"
+url: https://github.com/quanhiahia/quanhiahia.github.io/tree/main/_img
