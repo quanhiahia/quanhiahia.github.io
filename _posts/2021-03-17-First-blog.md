@@ -4,6 +4,8 @@ title: "Ubuntu 20.04에 CUDA cuDNN Pytorch"
 date: 2021-03-17
 ---
 
+Thanks to (https://goodtogreate.tistory.com/entry/2004-%EC%9A%B0%EB%B6%84%ED%88%AC%EA%B8%B0%EB%B0%98-NVIDIA-GeForce-RTX-3090%EC%97%90-CUDA-cuDNN-Pytorch-%EC%84%A4%EC%B9%98)
+
 Nvidia RTX2080, Ubuntu20.04, CUDA11.2, Pytorch1.8.0
 
 > ## 1. Verify the NVIDIA driver version 
