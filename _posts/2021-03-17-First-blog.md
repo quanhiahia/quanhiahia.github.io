@@ -8,7 +8,7 @@ date: 2021-03-17
 > ```
 > $ nvidia-smi
 > ```
-> ![image info](/_img/1.png)
+> ![nvida driver version](/_img/1.png)
 >   
 > ## 2. Install CUDA 
 > Get the installation command from CUDA official site 
