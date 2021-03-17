@@ -17,5 +17,6 @@ date: 2021-03-17
 > $ wget https://developer.download.nvidia.com/compute/cuda/11.2.2/local_installers/cuda_11.2.2_460.32.03_linux.run
 > $ sudo sh cuda_11.2.2_460.32.03_linux.run
 > ```
->   
+> Then there will be warning message from Nvidia. Just ignore it and choose continue
+> ![nvida driver version](/_img/1.png)   
 >3. 
