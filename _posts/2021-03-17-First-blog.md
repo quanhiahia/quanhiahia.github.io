@@ -96,3 +96,20 @@ date: 2021-03-17
 > > >``` 
 > > >Test Passed!
 > > >``` 
+> ## 4. Install Pytorch
+> Install pip3 first
+> 
+> Then install Pytorch via pip3
+> ``` 
+> pip3 install torch==1.8.0+cu111 torchvision==0.9.0+cu111 torchaudio==0.8.0 -f https://download.pytorch.org/whl/torch_stable.html
+> ``` 
+> 
+> Verify if Pytorch is installed
+> 
+> ``` 
+> import torch 
+> x = torch.rand(5, 3) 
+> print(x) 
+> import torch 
+> torch.cuda.is_available()
+> ``` 
