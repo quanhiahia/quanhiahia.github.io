@@ -62,4 +62,36 @@ date: 2021-03-17
 > 
 > ![](/_img/6.png) 
 > 
-> ## 3. 
+> ## 3. Install cuDNN
+> Here choose to use the Deb installation. (https://developer.nvidia.com/rdp/cudnn-archive)
+> ![](/_img/7.png) 
+>  
+> Navigate to the dicrectory contraining the  cuDNN Debian file
+> 
+> ``` 
+> sudo dpkg -i libcudnn8_x.x.x-1+cudax.x_amd64.deb
+> sudo dpkg -i libcudnn8-dev_8.x.x.x-1+cudax.x_amd64.deb
+> sudo dpkg -i libcudnn8-samples_8.x.x.x-1+cudax.x_amd64.deb
+> ``` 
+> 
+> Verify the installation
+> > 1. copy the cuDNN samples to a writable path
+> > ``` 
+> > $cp -r /usr/src/cudnn_samples_v8/ $HOME
+> > ``` 
+> > 2. Go to the writable path
+> > ``` 
+> > $ cd  $HOME/cudnn_samples_v8/mnistCUDNN
+> > ``` 
+> > 3. Compile the sample
+> > ``` 
+> > $ sudo make clean && make
+> > ``` 
+> > 4. Run the sample
+> > ``` 
+> > $ ./mnistCUDNN
+> > ``` 
+> > if the cuDNN is properly installed, we will see 
+> > ``` 
+> > Test Passed!
+> > ``` 
