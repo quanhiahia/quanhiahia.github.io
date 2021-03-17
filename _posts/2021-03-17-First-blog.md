@@ -4,4 +4,11 @@ title: "Ubuntu 20.04에 CUDA cuDNN Pytorch"
 date: 2021-03-17
 ---
 
-Well. Finally got around to putting this old website together. Neat thing about it - powered by [Jekyll](http://jekyllrb.com) and I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be.
+1. Verify the NVIDIA driver version
+   $ nvidia-smi
+2. Install CUDA
+   Get the installation command from CUDA official site
+   Linux--x86_64--Ubuntu--20.04--runfile(local)
+   $ wget https://developer.download.nvidia.com/compute/cuda/11.2.2/local_installers/cuda_11.2.2_460.32.03_linux.run
+   $ sudo sh cuda_11.2.2_460.32.03_linux.run
+3. 
