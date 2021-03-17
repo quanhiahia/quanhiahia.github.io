@@ -26,7 +26,10 @@ date: 2021-03-17
 > Add the path in the end of the bashrc file
 > ```
 > $ export PATH=/usr/local/cuda-11.2/bin${PATH:+:${PATH}}
-> $ export LD_LIBRARY_PATH=/usr/local/cuda-11.2/lib64\
-                         ${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+> $ export LD_LIBRARY_PATH=/usr/local/cuda-11.2/lib64\${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+> ```
+> After the following command in terminal
+> ```
+> source ~/.bashrc
 > ```
 > ## 3. 
